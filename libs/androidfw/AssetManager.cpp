@@ -1942,7 +1942,7 @@ AssetManager::ZipSet::~ZipSet(void)
 
 /*
  * Close a Zip file from path and reset the entry
- */
+ *
 void AssetManager::ZipSet::closeZipFromPath(const String8& zip)
 {
     //close zip fd
@@ -1954,7 +1954,7 @@ void AssetManager::ZipSet::closeZipFromPath(const String8& zip)
         int idx = getIndex(zip);
         mZipFile.editItemAt(idx) = NULL;
     }
-}
+}*/
 
 /*
  * Close a Zip file and reset the entry.
